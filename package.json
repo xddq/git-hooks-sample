@@ -1,0 +1,21 @@
+{
+  "name": "git-hooks-example-repo",
+  "version": "1.0.0",
+  "description": "showcasing git hooks with eslint and prettier.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "hooks",
+    "eslint",
+    "prettier"
+  ],
+  "author": "Pierre Dahmani",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "prettier": "^2.5.1"
+  }
+}
