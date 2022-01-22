@@ -10,5 +10,8 @@
 // this would be caught by eslint.
 var thisShouldBeConst = "hello world"
 
+// this would be caught by eslint.
+const unusedVariable = "test"
+
 // this would be formatted by prettier.
 console.log  ( "to many spaces...: "                                                 ,       thisShouldBeConst)
