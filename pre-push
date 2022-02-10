@@ -1,0 +1,13 @@
+#!/bin/bash
+# Description: Pre push hook which will run eslint on the code base.
+# src: https://gist.github.com/linhmtran168/2286aeafe747e78f53bf
+
+# runs eslint on all files.
+echo "Executing pre-push hook. Linting all .js,.ts,.vue files.."
+echo "Command: ./node_modules/.bin/eslint . -c .eslintrc.js --ext \
+    .js,.ts,.vue,.tsx,.jsx"
+./node_modules/.bin/eslint . -c .eslintrc.js --ext .js,.ts,.vue,.tsx,.jsx
+
+exit $?
+
+
